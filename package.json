@@ -1,0 +1,12 @@
+{
+  "name": "next-page-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next Page website with SMTP enquiry delivery",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
+}
